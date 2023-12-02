@@ -1,0 +1,780 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GridBasedObjectLayer
+ | Lofi City Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GridBasedObjectLayer
+ | Lofi City Documentation ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Kyle-Agius/Lofi-City/new/WebGLDemo/apiSpec/new?filename=Global_GridBasedObjectLayer.md&amp;value=---%0Auid%3A%20Global.GridBasedObjectLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Global.GridBasedObjectLayer">
+
+
+
+  <h1 id="Global_GridBasedObjectLayer" data-uid="Global.GridBasedObjectLayer" class="text-break">
+    Class GridBasedObjectLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A 2D matrix of a given width and height is used to store GridObjects.
+This system works best for fixed areas where most cells have an object in them.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GridBasedObjectLayer : ObjectLayerBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Object.html">Object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+      <div><a class="xref" href="Global.ObjectLayerBase.html">ObjectLayerBase</a></div>
+      <div><span class="xref">GridBasedObjectLayer</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase__positionSubscribers">ObjectLayerBase._positionSubscribers</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase__onObjectChanged">ObjectLayerBase._onObjectChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_layerType">ObjectLayerBase.layerType</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase__zPosition">ObjectLayerBase._zPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_GetLayerType">ObjectLayerBase.GetLayerType()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_SetZPosition_System_Int32_">ObjectLayerBase.SetZPosition(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_GetZPosition">ObjectLayerBase.GetZPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_SubscribeToChangeAtPosition_UnityEngine_Vector2Int_System_Action_GridObject__">ObjectLayerBase.SubscribeToChangeAtPosition(Vector2Int, Action&lt;GridObject&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_UnsubscribeFromChangeAtPosition_UnityEngine_Vector2Int_System_Action_GridObject__">ObjectLayerBase.UnsubscribeFromChangeAtPosition(Vector2Int, Action&lt;GridObject&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_SubscribeToChangeInLayer_System_Action_GridObject__">ObjectLayerBase.SubscribeToChangeInLayer(Action&lt;GridObject&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObjectLayerBase.html#Global_ObjectLayerBase_AlertSubscribers_UnityEngine_Vector2Int_GridObject_">ObjectLayerBase.AlertSubscribers(Vector2Int, GridObject)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Global_GridBasedObjectLayer__isSetUp" data-uid="Global.GridBasedObjectLayer._isSetUp">
+  _isSetUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool _isSetUp</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_GridBasedObjectLayer__objectsGrid" data-uid="Global.GridBasedObjectLayer._objectsGrid">
+  _objectsGrid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private GridObject[,] _objectsGrid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="GridObject.html">GridObject</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_GridBasedObjectLayer__onGridSetup" data-uid="Global.GridBasedObjectLayer._onGridSetup">
+  _onGridSetup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Action&lt;(int, int), Vector2Int&gt; _onGridSetup</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>), <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_GridBasedObjectLayer__originPosition" data-uid="Global.GridBasedObjectLayer._originPosition">
+  _originPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The world position of the bottom left cell</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Vector2Int _originPosition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Global_GridBasedObjectLayer_IsSetUp_" data-uid="Global.GridBasedObjectLayer.IsSetUp*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_IsSetUp" data-uid="Global.GridBasedObjectLayer.IsSetUp">
+  IsSetUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSetUp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_OriginPosition_" data-uid="Global.GridBasedObjectLayer.OriginPosition*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_OriginPosition" data-uid="Global.GridBasedObjectLayer.OriginPosition">
+  OriginPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2Int OriginPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Global_GridBasedObjectLayer_GetAllObjects_" data-uid="Global.GridBasedObjectLayer.GetAllObjects*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_GetAllObjects" data-uid="Global.GridBasedObjectLayer.GetAllObjects">
+  GetAllObjects()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;GridObject&gt; GetAllObjects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="GridObject.html">GridObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_GetObjectAtPosition_" data-uid="Global.GridBasedObjectLayer.GetObjectAtPosition*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_GetObjectAtPosition_UnityEngine_Vector2Int_" data-uid="Global.GridBasedObjectLayer.GetObjectAtPosition(UnityEngine.Vector2Int)">
+  GetObjectAtPosition(Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GridObject GetObjectAtPosition(Vector2Int position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.GridObject.html">GridObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_GetObjectsInArea_" data-uid="Global.GridBasedObjectLayer.GetObjectsInArea*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_GetObjectsInArea_UnityEngine_Vector2Int_UnityEngine_Vector2Int_" data-uid="Global.GridBasedObjectLayer.GetObjectsInArea(UnityEngine.Vector2Int,UnityEngine.Vector2Int)">
+  GetObjectsInArea(Vector2Int, Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;GridObject&gt; GetObjectsInArea(Vector2Int position, Vector2Int size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="GridObject.html">GridObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_GetSize_" data-uid="Global.GridBasedObjectLayer.GetSize*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_GetSize" data-uid="Global.GridBasedObjectLayer.GetSize">
+  GetSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (int, int) GetSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_RemoveObject_" data-uid="Global.GridBasedObjectLayer.RemoveObject*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_RemoveObject_UnityEngine_Vector2Int_" data-uid="Global.GridBasedObjectLayer.RemoveObject(UnityEngine.Vector2Int)">
+  RemoveObject(Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RemoveObject(Vector2Int position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_SetObject_" data-uid="Global.GridBasedObjectLayer.SetObject*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_SetObject_UnityEngine_Vector2Int_System_Object_" data-uid="Global.GridBasedObjectLayer.SetObject(UnityEngine.Vector2Int,System.Object)">
+  SetObject(Vector2Int, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Setting an object will remove any existing object at that position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GridObject SetObject(Vector2Int position, object objectPrefab)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+    <dt><code>objectPrefab</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.GridObject.html">GridObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_SetObject_" data-uid="Global.GridBasedObjectLayer.SetObject*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_SetObject_UnityEngine_Vector2Int_UnityEngine_Vector2Int_System_Object_" data-uid="Global.GridBasedObjectLayer.SetObject(UnityEngine.Vector2Int,UnityEngine.Vector2Int,System.Object)">
+  SetObject(Vector2Int, Vector2Int, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GridObject SetObject(Vector2Int position, Vector2Int size, object objectPrefab)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+    <dt><code>objectPrefab</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.GridObject.html">GridObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_Setup_" data-uid="Global.GridBasedObjectLayer.Setup*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_Setup_System_Int32_System_Int32_UnityEngine_Vector2Int_" data-uid="Global.GridBasedObjectLayer.Setup(System.Int32,System.Int32,UnityEngine.Vector2Int)">
+  Setup(int, int, Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Setup is used to create a new grid of the needed size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Setup(int width, int height, Vector2Int originPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>originPosition</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer_SubscribeToGridSetup_" data-uid="Global.GridBasedObjectLayer.SubscribeToGridSetup*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer_SubscribeToGridSetup_System_Action_System_ValueTuple_System_Int32_System_Int32__UnityEngine_Vector2Int__" data-uid="Global.GridBasedObjectLayer.SubscribeToGridSetup(System.Action{System.ValueTuple{System.Int32,System.Int32},UnityEngine.Vector2Int})">
+  SubscribeToGridSetup(Action&lt;(int, int), Vector2Int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeToGridSetup(Action&lt;(int, int), Vector2Int&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>), <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer__indexToWorldPosition_" data-uid="Global.GridBasedObjectLayer._indexToWorldPosition*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer__indexToWorldPosition_UnityEngine_Vector2Int_" data-uid="Global.GridBasedObjectLayer._indexToWorldPosition(UnityEngine.Vector2Int)">
+  _indexToWorldPosition(Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Vector2Int _indexToWorldPosition(Vector2Int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_GridBasedObjectLayer__worldPositionToIndex_" data-uid="Global.GridBasedObjectLayer._worldPositionToIndex*"></a>
+
+  <h3 id="Global_GridBasedObjectLayer__worldPositionToIndex_UnityEngine_Vector2Int_" data-uid="Global.GridBasedObjectLayer._worldPositionToIndex(UnityEngine.Vector2Int)">
+  _worldPositionToIndex(Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Vector2Int _worldPositionToIndex(Vector2Int position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Grid System/ObjectLayers/GridBasedObjectLayer.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Lofi City Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Scriptable_Attraction
+ | Lofi City Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Scriptable_Attraction
+ | Lofi City Documentation ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Kyle-Agius/Lofi-City/new/WebGLDemo/apiSpec/new?filename=Global_Scriptable_Attraction.md&amp;value=---%0Auid%3A%20Global.Scriptable_Attraction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Global.Scriptable_Attraction">
+
+
+
+  <h1 id="Global_Scriptable_Attraction" data-uid="Global.Scriptable_Attraction" class="text-break">
+    Class Scriptable_Attraction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A point of interest in the world for NPCs to move to and stay at.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CreateAssetMenu(menuName = &quot;ScriptableObject/Attraction&quot;)]
+public class Scriptable_Attraction : ScriptableObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Object.html">Object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/ScriptableObject.html">ScriptableObject</a></div>
+      <div><span class="xref">Scriptable_Attraction</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Global.Scriptable_PersonalityAttractions.html">Scriptable_PersonalityAttractions</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Global_Scriptable_Attraction__dateTimeCondition" data-uid="Global.Scriptable_Attraction._dateTimeCondition">
+  _dateTimeCondition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private DateTimeCondition _dateTimeCondition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.DateTimeCondition.html">DateTimeCondition</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_Scriptable_Attraction__interest" data-uid="Global.Scriptable_Attraction._interest">
+  _interest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private Enum_Interests _interest</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Enum_Interests.html">Enum_Interests</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_Scriptable_Attraction__location" data-uid="Global.Scriptable_Attraction._location">
+  _location
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private Enum_SceneName _location</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Enum_SceneName.html">Enum_SceneName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_Scriptable_Attraction__placeAttributes" data-uid="Global.Scriptable_Attraction._placeAttributes">
+  _placeAttributes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private List&lt;Enum_PlaceAttributes&gt; _placeAttributes</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Enum_PlaceAttributes.html">Enum_PlaceAttributes</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_Scriptable_Attraction__placeType" data-uid="Global.Scriptable_Attraction._placeType">
+  _placeType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private Enum_ActivityType _placeType</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Enum_ActivityType.html">Enum_ActivityType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_Scriptable_Attraction__priority" data-uid="Global.Scriptable_Attraction._priority">
+  _priority
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private int _priority</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Global_Scriptable_Attraction_DateTimeCondition_" data-uid="Global.Scriptable_Attraction.DateTimeCondition*"></a>
+
+  <h3 id="Global_Scriptable_Attraction_DateTimeCondition" data-uid="Global.Scriptable_Attraction.DateTimeCondition">
+  DateTimeCondition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeCondition DateTimeCondition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.DateTimeCondition.html">DateTimeCondition</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Global_Scriptable_Attraction_Interest_" data-uid="Global.Scriptable_Attraction.Interest*"></a>
+
+  <h3 id="Global_Scriptable_Attraction_Interest" data-uid="Global.Scriptable_Attraction.Interest">
+  Interest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Enum_Interests Interest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Enum_Interests.html">Enum_Interests</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Global_Scriptable_Attraction_Location_" data-uid="Global.Scriptable_Attraction.Location*"></a>
+
+  <h3 id="Global_Scriptable_Attraction_Location" data-uid="Global.Scriptable_Attraction.Location">
+  Location
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Enum_SceneName Location { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Enum_SceneName.html">Enum_SceneName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Global_Scriptable_Attraction_PlaceAttributes_" data-uid="Global.Scriptable_Attraction.PlaceAttributes*"></a>
+
+  <h3 id="Global_Scriptable_Attraction_PlaceAttributes" data-uid="Global.Scriptable_Attraction.PlaceAttributes">
+  PlaceAttributes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Enum_PlaceAttributes&gt; PlaceAttributes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Enum_PlaceAttributes.html">Enum_PlaceAttributes</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Global_Scriptable_Attraction_PlaceType_" data-uid="Global.Scriptable_Attraction.PlaceType*"></a>
+
+  <h3 id="Global_Scriptable_Attraction_PlaceType" data-uid="Global.Scriptable_Attraction.PlaceType">
+  PlaceType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Enum_ActivityType PlaceType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Enum_ActivityType.html">Enum_ActivityType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Global_Scriptable_Attraction_Priority_" data-uid="Global.Scriptable_Attraction.Priority*"></a>
+
+  <h3 id="Global_Scriptable_Attraction_Priority" data-uid="Global.Scriptable_Attraction.Priority">
+  Priority
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Priority { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/ScriptableObjects/Attractions/Scriptable_Attraction.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Lofi City Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

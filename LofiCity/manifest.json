@@ -1,0 +1,3233 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Owner/UnityLectures/Lofi City/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActionCondition_AnyCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActionCondition_AnyCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActionCondition_ItemInInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActionCondition_ItemInInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActionCondition_ItemsSold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActionCondition_ItemsSold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActionCondition_MachineAdded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActionCondition_MachineAdded.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActionCondition_MultipleConditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActionCondition_MultipleConditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActionRegistrationSourceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActionRegistrationSourceGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ActiveCraftingRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ActiveCraftingRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AddSceneObjectsToObjectLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AddSceneObjectsToObjectLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AddressableAsset_Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AddressableAsset_Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AllSceneLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AllSceneLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AllSchedules-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AllSchedules-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttractionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttractionBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttractionObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttractionObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttractionsData.SceneNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttractionsData.SceneNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttractionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttractionsData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttractionsInScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttractionsInScene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AudioManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AudioManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CartData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CartData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CartInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CartInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CategorySpecificAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CategorySpecificAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ChangeSortingLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ChangeSortingLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ClassDeclarationSyntaxReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ClassDeclarationSyntaxReceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CorruptedPlant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CorruptedPlant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CraftingRequestController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CraftingRequestController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CurrentSaveSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CurrentSaveSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CurrentSceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CurrentSceneData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CustomerInQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CustomerInQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CustomerQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CustomerQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DateTimeCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DateTimeCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DateTimeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DateTimeManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DaySpecificAttractions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DaySpecificAttractions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DayTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DayTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DestructableCart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DestructableCart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DestructableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DestructableObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DisplayLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DisplayLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DisplayWires.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DisplayWires.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EcosystemLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EcosystemLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_ActivityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_ActivityType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_DayOfTheWeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_DayOfTheWeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_Directions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_Directions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_EcosystemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_EcosystemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_FieldTileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_FieldTileType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_HUDComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_HUDComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_Interests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_Interests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_ItemAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_ItemAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_ItemCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_ItemCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_ItemDisplayCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_ItemDisplayCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_ItemInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_ItemInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_MachineCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_MachineCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_NPCActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_NPCActivity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_NPCAnimations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_NPCAnimations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_NPCVisualElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_NPCVisualElements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_ObjectLayerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_ObjectLayerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_PlaceAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_PlaceAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_PlayerAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_PlayerAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_SceneName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_SceneName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_Season.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_Season.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Enum_SortingLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Enum_SortingLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FarmPlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FarmPlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FieldWateringSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FieldWateringSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FileLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FileLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FivePointRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FivePointRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FruitTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FruitTree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GenericAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GenericAction-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GenericAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GenericAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GenericUnityAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GenericUnityAction-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GenericUnityAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GenericUnityAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GlobalManagers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GlobalManagers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GlobalSceneData.SceneNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GlobalSceneData.SceneNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GlobalSceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GlobalSceneData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GridBasedObjectLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GridBasedObjectLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GridObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GridObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GridPointer_Ranged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GridPointer_Ranged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HUDComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HUDComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HUDController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HUDController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HUDToggleButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HUDToggleButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HagglingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HagglingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IActionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IActionCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IGridPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IGridPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IInteractableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IInteractableObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IItemInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IItemInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IItemWithSetup-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IItemWithSetup-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ILogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IMachineNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IMachineNetwork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IMovementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IMovementType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.INPC_Personality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.INPC_Personality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IPointOfInterest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IPointOfInterest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISavableElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISavableElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISavingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISavingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IdleSpotsInScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IdleSpotsInScene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InGameLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InGameLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InWorldShop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InWorldShop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.DebugActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.DebugActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.IDebugActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.IDebugActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.IInteractionActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.IInteractionActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.IMovementActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.IMovementActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.InteractionActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.InteractionActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.MovementActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.MovementActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InspectableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InspectableDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InspectablePair-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InspectablePair-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InteractableObject_Bed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InteractableObject_Bed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InteractableObject_Dialogue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InteractableObject_Dialogue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InteractableObject_Hub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InteractableObject_Hub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InteractableObject_ItemSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InteractableObject_ItemSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InteractableObject_Plant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InteractableObject_Plant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemDisplayTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemDisplayTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemInteraction_CleanTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemInteraction_CleanTool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemInteraction_DestroyTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemInteraction_DestroyTool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemInteraction_LimitedPlacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemInteraction_LimitedPlacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemInteraction_Placable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemInteraction_Placable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemInteraction_WaterTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemInteraction_WaterTool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemSellingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemSellingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemTransportWire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemTransportWire.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemUseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemUseManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemWithQuantity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemWithQuantity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.JSONBasedSavingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.JSONBasedSavingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LimitlessInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LimitlessInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ListBasedObjectLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ListBasedObjectLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LoadWorldScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LoadWorldScene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MachineNetworkController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MachineNetworkController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MachineNetwork_Craft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MachineNetwork_Craft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MachineObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MachineObjectBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MachineObject_Craft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MachineObject_Craft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MergedPosition-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MergedPosition-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MergedPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MergedPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MovementManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MovementManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MovementType_Walk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MovementType_Walk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCVisuals_Directional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCVisuals_Directional.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_Activity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_Activity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_ActivityBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_ActivityBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_Animations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_Animations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_GlobalData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_GlobalData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_Movement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_MovementBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_MovementBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_Need.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_Need.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_SceneTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_SceneTracker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_ScheduleSlot-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_ScheduleSlot-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_ScheduleSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_ScheduleSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPC_Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPC_Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NamedNPC_Activity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NamedNPC_Activity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NamedNPC_Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NamedNPC_Movement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NamedNPC_Personality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NamedNPC_Personality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NamedNPC_SceneTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NamedNPC_SceneTracker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NamedNPC_Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NamedNPC_Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NetworkedMachineBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NetworkedMachineBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NetworkedMachine_Craft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NetworkedMachine_Craft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NullLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NullLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObjectLayerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObjectLayerBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObjectLayerChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObjectLayerChange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObjectsOnFirstLoad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObjectsOnFirstLoad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.OffsetAnimatedWater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.OffsetAnimatedWater.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PathBasedMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PathBasedMovement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PathNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PathNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Pathfinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Pathfinding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PauseGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PauseGame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PendingCraftingRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PendingCraftingRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Personality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Personality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PhysicalObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PhysicalObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PhysicalObjectLayerToPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PhysicalObjectLayerToPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlantObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlantObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayMusicInScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayMusicInScene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlaySoundEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlaySoundEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlaySoundWithPlayerAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlaySoundWithPlayerAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerMoney.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerMoney.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerSortingLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerSortingLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Player_Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Player_Animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PointOfInterest_CustomerQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PointOfInterest_CustomerQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PointOfInterest_Delay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PointOfInterest_Delay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PointOfInterest_Idle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PointOfInterest_Idle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PointOfInterest_Obstructed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PointOfInterest_Obstructed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PointOfInterest_SceneTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PointOfInterest_SceneTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PopulateFieldTilemap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PopulateFieldTilemap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PriceListUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PriceListUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.QuantityDemandedCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.QuantityDemandedCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RandomNPC_Activity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RandomNPC_Activity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RandomNPC_Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RandomNPC_Movement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RandomNPC_Personality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RandomNPC_Personality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RandomNPC_ScenePopulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RandomNPC_ScenePopulation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RandomNPC_Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RandomNPC_Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SavableMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SavableMachine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SavableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SavableObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SavableObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SavableObjectBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SavablePositionList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SavablePositionList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SavablePositionList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SavablePositionList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveCraftingRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveCraftingRequests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveLimitlessInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveLimitlessInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveMachineNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveMachineNetwork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveObjectLayerChanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveObjectLayerChanges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveObjectLayerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveObjectLayerData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveObjectLayerGameObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveObjectLayerGameObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveSlotManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveSlotManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SavingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SavingManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SceneChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SceneChange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SceneDependentData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SceneDependentData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SceneLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SceneLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SceneSaving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SceneSaving.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ScheduleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ScheduleEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_ActivitySchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_ActivitySchedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Attraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Attraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_CartData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_CartData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_ColourPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_ColourPalette.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_ConnectMachineTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_ConnectMachineTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_CraftingMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_CraftingMachine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_CraftingRecipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_CraftingRecipe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_FieldTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_FieldTile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_InWorldShop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_InWorldShop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Interest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Interest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_ItemCollectedTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_ItemCollectedTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_LimitedPlacableItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_LimitedPlacableItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Machine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Machine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_NPCSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_NPCSchedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Outfit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Outfit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_PathTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_PathTile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Personality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Personality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_PersonalityAttractions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_PersonalityAttractions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_PlacableItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_PlacableItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Plant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Plant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_RandomNPCSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_RandomNPCSchedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_SceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_SceneData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Schedule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Schedule-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_SellItemsTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_SellItemsTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_SellableItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_SellableItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Task.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_Tile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_Tile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_TileGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_TileGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Scriptable_VisualFieldTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Scriptable_VisualFieldTile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetCamera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetObjectSortingLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetObjectSortingLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SetupNPCVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SetupNPCVisuals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SimpleDayNightLighting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SimpleDayNightLighting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SlotBasedInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SlotBasedInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SpecificDateAndTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SpecificDateAndTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.StartGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.StartGame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TaskList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TaskList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TemporaryExit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TemporaryExit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TemporarySceneLoading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TemporarySceneLoading.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestNPCVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestNPCVisuals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingCartSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingCartSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingCraftingRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingCraftingRequests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingPathfinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingPathfinding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingPlayerStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingPlayerStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestingTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestingTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TilemapToObjectLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TilemapToObjectLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TimeSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TimeSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ToggleObjectAtTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ToggleObjectAtTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TreeVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TreeVisuals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ButtonWithText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ButtonWithText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_CartSlots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_CartSlots.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ChangeTabColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ChangeTabColour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_CraftSpecificItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_CraftSpecificItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_CraftingRequestMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_CraftingRequestMonitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_CraftingRequestSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_CraftingRequestSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_CreateNewSaveFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_CreateNewSaveFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_CustomerInQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_CustomerInQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_DayTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_DayTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_DisplayLimitlessInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_DisplayLimitlessInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_DisplayList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_DisplayList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_DisplayListItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_DisplayListItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_DisplayMoney.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_DisplayMoney.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_DisplayTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_DisplayTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_Dragable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_Dragable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_GridPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_GridPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_Haggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_Haggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_HelpMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_HelpMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_Hotbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_Hotbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_HotbarSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_HotbarSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_HubItemCrafting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_HubItemCrafting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_InWorldShop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_InWorldShop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_InWorldShopItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_InWorldShopItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_InventoryDropTransfer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_InventoryDropTransfer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ItemDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ItemDisplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ItemDisplaySlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ItemDisplaySlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ItemSlotData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ItemSlotData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_LoadPreviousSave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_LoadPreviousSave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_PriceListItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_PriceListItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_RecipeItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_RecipeItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_SaveSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_SaveSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ScreenTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ScreenTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ShoppingList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ShoppingList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_ShoppingListItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_ShoppingListItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_TabController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_TabController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_TaskList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_TaskList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_TaskListItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_TaskListItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_TaskNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_TaskNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UI_VendorSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UI_VendorSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WireBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WireBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WireToMachineNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WireToMachineNetwork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Work_Attraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Work_Attraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WorldPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WorldPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/CodingStandard.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/CodingStandard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Gameplay_Systems/ItemInteractionSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Gameplay_Systems/ItemInteractionSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Gameplay_Systems/MachineSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Gameplay_Systems/MachineSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Gameplay_Systems/SellingSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Gameplay_Systems/SellingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/World_Systems/DateTimeSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/World_Systems/DateTimeSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/World_Systems/NPCSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/World_Systems/NPCSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/World_Systems/SaveSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/World_Systems/SaveSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/World_Systems/SceneLayerSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/World_Systems/SceneLayerSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/World_Systems/SceneLayout.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/World_Systems/SceneLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/World_Systems/SortingLayers.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/World_Systems/SortingLayers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,940 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PathBasedMovement
+ | Lofi City Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PathBasedMovement
+ | Lofi City Documentation ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Kyle-Agius/Lofi-City/new/WebGLDemo/apiSpec/new?filename=Global_PathBasedMovement.md&amp;value=---%0Auid%3A%20Global.PathBasedMovement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Global.PathBasedMovement">
+
+
+
+  <h1 id="Global_PathBasedMovement" data-uid="Global.PathBasedMovement" class="text-break">
+    Class PathBasedMovement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Move a game object to a new position based on Pathfinding.
+Allows for continuing along an axisting path.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PathBasedMovement : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Object.html">Object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+      <div><span class="xref">PathBasedMovement</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Global_PathBasedMovement__allLayers" data-uid="Global.PathBasedMovement._allLayers">
+  _allLayers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private AllSceneLayers _allLayers</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.AllSceneLayers.html">AllSceneLayers</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__changeInLayer" data-uid="Global.PathBasedMovement._changeInLayer">
+  _changeInLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private UnityEvent&lt;SceneLayer&gt; _changeInLayer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="SceneLayer.html">SceneLayer</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__characterLayer" data-uid="Global.PathBasedMovement._characterLayer">
+  _characterLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private ObjectLayerBase _characterLayer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.ObjectLayerBase.html">ObjectLayerBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__currentStep" data-uid="Global.PathBasedMovement._currentStep">
+  _currentStep
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int _currentStep</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__delayAfterCharacter" data-uid="Global.PathBasedMovement._delayAfterCharacter">
+  _delayAfterCharacter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private float _delayAfterCharacter</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__movementCoplete" data-uid="Global.PathBasedMovement._movementCoplete">
+  _movementCoplete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Action _movementCoplete</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__onDirectionChange" data-uid="Global.PathBasedMovement._onDirectionChange">
+  _onDirectionChange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Action&lt;Vector2Int&gt; _onDirectionChange</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__onStepChange" data-uid="Global.PathBasedMovement._onStepChange">
+  _onStepChange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Action&lt;int&gt; _onStepChange</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__pathLayer" data-uid="Global.PathBasedMovement._pathLayer">
+  _pathLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private ObjectLayerBase _pathLayer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.ObjectLayerBase.html">ObjectLayerBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__pathfinding" data-uid="Global.PathBasedMovement._pathfinding">
+  _pathfinding
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Pathfinding _pathfinding</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Pathfinding.html">Pathfinding</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__positionsInPath" data-uid="Global.PathBasedMovement._positionsInPath">
+  _positionsInPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int _positionsInPath</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__positionsMoved" data-uid="Global.PathBasedMovement._positionsMoved">
+  _positionsMoved
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int _positionsMoved</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__timePerStep" data-uid="Global.PathBasedMovement._timePerStep">
+  _timePerStep
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private float _timePerStep</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_PathBasedMovement__zPosition" data-uid="Global.PathBasedMovement._zPosition">
+  _zPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int _zPosition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Global_PathBasedMovement_Awake_" data-uid="Global.PathBasedMovement.Awake*"></a>
+
+  <h3 id="Global_PathBasedMovement_Awake" data-uid="Global.PathBasedMovement.Awake">
+  Awake()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_DivertPath_" data-uid="Global.PathBasedMovement.DivertPath*"></a>
+
+  <h3 id="Global_PathBasedMovement_DivertPath_UnityEngine_Vector3Int_UnityEngine_Vector3Int_" data-uid="Global.PathBasedMovement.DivertPath(UnityEngine.Vector3Int,UnityEngine.Vector3Int)">
+  DivertPath(Vector3Int, Vector3Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void DivertPath(Vector3Int startPosition, Vector3Int endPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_GetMovementProgress_" data-uid="Global.PathBasedMovement.GetMovementProgress*"></a>
+
+  <h3 id="Global_PathBasedMovement_GetMovementProgress" data-uid="Global.PathBasedMovement.GetMovementProgress">
+  GetMovementProgress()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetMovementProgress()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_Move_" data-uid="Global.PathBasedMovement.Move*"></a>
+
+  <h3 id="Global_PathBasedMovement_Move_System_Collections_Generic_List_UnityEngine_Vector3Int__" data-uid="Global.PathBasedMovement.Move(System.Collections.Generic.List{UnityEngine.Vector3Int})">
+  Move(List&lt;Vector3Int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private IEnumerator Move(List&lt;Vector3Int&gt; path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Vector3Int</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_MoveOnExistingPath_" data-uid="Global.PathBasedMovement.MoveOnExistingPath*"></a>
+
+  <h3 id="Global_PathBasedMovement_MoveOnExistingPath_UnityEngine_Vector3Int_UnityEngine_Vector3Int_System_Single_" data-uid="Global.PathBasedMovement.MoveOnExistingPath(UnityEngine.Vector3Int,UnityEngine.Vector3Int,System.Single)">
+  MoveOnExistingPath(Vector3Int, Vector3Int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveOnExistingPath(Vector3Int startPosition, Vector3Int endPosition, float progress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>progress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_MoveToPosition_" data-uid="Global.PathBasedMovement.MoveToPosition*"></a>
+
+  <h3 id="Global_PathBasedMovement_MoveToPosition_UnityEngine_Vector3_" data-uid="Global.PathBasedMovement.MoveToPosition(UnityEngine.Vector3)">
+  MoveToPosition(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToPosition(Vector3 endPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>endPosition</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_MoveToPosition_" data-uid="Global.PathBasedMovement.MoveToPosition*"></a>
+
+  <h3 id="Global_PathBasedMovement_MoveToPosition_UnityEngine_Vector3Int_" data-uid="Global.PathBasedMovement.MoveToPosition(UnityEngine.Vector3Int)">
+  MoveToPosition(Vector3Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToPosition(Vector3Int endPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>endPosition</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_StartMovingFromPosition_" data-uid="Global.PathBasedMovement.StartMovingFromPosition*"></a>
+
+  <h3 id="Global_PathBasedMovement_StartMovingFromPosition_UnityEngine_Vector3Int_" data-uid="Global.PathBasedMovement.StartMovingFromPosition(UnityEngine.Vector3Int)">
+  StartMovingFromPosition(Vector3Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void StartMovingFromPosition(Vector3Int endPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>endPosition</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_SubscribeToDirectionChanged_" data-uid="Global.PathBasedMovement.SubscribeToDirectionChanged*"></a>
+
+  <h3 id="Global_PathBasedMovement_SubscribeToDirectionChanged_System_Action_UnityEngine_Vector2Int__" data-uid="Global.PathBasedMovement.SubscribeToDirectionChanged(System.Action{UnityEngine.Vector2Int})">
+  SubscribeToDirectionChanged(Action&lt;Vector2Int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeToDirectionChanged(Action&lt;Vector2Int&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_SubscribeToElevationChange_" data-uid="Global.PathBasedMovement.SubscribeToElevationChange*"></a>
+
+  <h3 id="Global_PathBasedMovement_SubscribeToElevationChange_System_Action_System_Int32__" data-uid="Global.PathBasedMovement.SubscribeToElevationChange(System.Action{System.Int32})">
+  SubscribeToElevationChange(Action&lt;int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeToElevationChange(Action&lt;int&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_PathBasedMovement_SubscribeToMovementComplete_" data-uid="Global.PathBasedMovement.SubscribeToMovementComplete*"></a>
+
+  <h3 id="Global_PathBasedMovement_SubscribeToMovementComplete_System_Action_" data-uid="Global.PathBasedMovement.SubscribeToMovementComplete(System.Action)">
+  SubscribeToMovementComplete(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeToMovementComplete(Action action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Level Architecture/Pathfinding/PathBasedMovement.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Lofi City Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

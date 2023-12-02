@@ -1,0 +1,741 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MovementType_Walk
+ | Lofi City Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MovementType_Walk
+ | Lofi City Documentation ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Kyle-Agius/Lofi-City/new/WebGLDemo/apiSpec/new?filename=Global_MovementType_Walk.md&amp;value=---%0Auid%3A%20Global.MovementType_Walk%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Global.MovementType_Walk">
+
+
+
+  <h1 id="Global_MovementType_Walk" data-uid="Global.MovementType_Walk" class="text-break">
+    Class MovementType_Walk
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>This is the default movement system. The player can freely move arount a layer and climb 1 block high steps</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MovementType_Walk : MonoBehaviour, IMovementType</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Object.html">Object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Component.html">Component</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+      <div><span class="xref">MovementType_Walk</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Global.IMovementType.html">IMovementType</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Global_MovementType_Walk__animator" data-uid="Global.MovementType_Walk._animator">
+  _animator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private Player_Animation _animator</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Player_Animation.html">Player_Animation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__changeInLayer" data-uid="Global.MovementType_Walk._changeInLayer">
+  _changeInLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Action&lt;SceneLayer&gt; _changeInLayer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SceneLayer.html">SceneLayer</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__changeInStep" data-uid="Global.MovementType_Walk._changeInStep">
+  _changeInStep
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Action&lt;int&gt; _changeInStep</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__changedMovement" data-uid="Global.MovementType_Walk._changedMovement">
+  _changedMovement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool _changedMovement</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__currentDirection" data-uid="Global.MovementType_Walk._currentDirection">
+  _currentDirection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Vector2 _currentDirection</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__currentOffset" data-uid="Global.MovementType_Walk._currentOffset">
+  _currentOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int _currentOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__movementSpeed" data-uid="Global.MovementType_Walk._movementSpeed">
+  _movementSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private float _movementSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__playerStatus" data-uid="Global.MovementType_Walk._playerStatus">
+  _playerStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private PlayerStatus _playerStatus</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.PlayerStatus.html">PlayerStatus</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__playerTransform" data-uid="Global.MovementType_Walk._playerTransform">
+  _playerTransform
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Transform _playerTransform</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Transform.html">Transform</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Global_MovementType_Walk__tileLeeway" data-uid="Global.MovementType_Walk._tileLeeway">
+  _tileLeeway
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+private float _tileLeeway</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Global_MovementType_Walk_ChangedDirection_" data-uid="Global.MovementType_Walk.ChangedDirection*"></a>
+
+  <h3 id="Global_MovementType_Walk_ChangedDirection_UnityEngine_Vector2_" data-uid="Global.MovementType_Walk.ChangedDirection(UnityEngine.Vector2)">
+  ChangedDirection(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangedDirection(Vector2 currentDirection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentDirection</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_FloorVector2_" data-uid="Global.MovementType_Walk.FloorVector2*"></a>
+
+  <h3 id="Global_MovementType_Walk_FloorVector2_UnityEngine_Vector2_" data-uid="Global.MovementType_Walk.FloorVector2(UnityEngine.Vector2)">
+  FloorVector2(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Vector2Int FloorVector2(Vector2 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_GetTileAtPosition_" data-uid="Global.MovementType_Walk.GetTileAtPosition*"></a>
+
+  <h3 id="Global_MovementType_Walk_GetTileAtPosition_UnityEngine_Vector2Int_" data-uid="Global.MovementType_Walk.GetTileAtPosition(UnityEngine.Vector2Int)">
+  GetTileAtPosition(Vector2Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Scriptable_PathTile GetTileAtPosition(Vector2Int playerPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>playerPosition</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2Int.html">Vector2Int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Global.Scriptable_PathTile.html">Scriptable_PathTile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_Movement_" data-uid="Global.MovementType_Walk.Movement*"></a>
+
+  <h3 id="Global_MovementType_Walk_Movement" data-uid="Global.MovementType_Walk.Movement">
+  Movement()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator Movement()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_Setup_" data-uid="Global.MovementType_Walk.Setup*"></a>
+
+  <h3 id="Global_MovementType_Walk_Setup_UnityEngine_Transform_" data-uid="Global.MovementType_Walk.Setup(UnityEngine.Transform)">
+  Setup(Transform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Setup(Transform transform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Transform.html">Transform</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_SubscribeToChangeInStep_" data-uid="Global.MovementType_Walk.SubscribeToChangeInStep*"></a>
+
+  <h3 id="Global_MovementType_Walk_SubscribeToChangeInStep_System_Action_System_Int32__" data-uid="Global.MovementType_Walk.SubscribeToChangeInStep(System.Action{System.Int32})">
+  SubscribeToChangeInStep(Action&lt;int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeToChangeInStep(Action&lt;int&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_SubscribeToChangedSceneLayer_" data-uid="Global.MovementType_Walk.SubscribeToChangedSceneLayer*"></a>
+
+  <h3 id="Global_MovementType_Walk_SubscribeToChangedSceneLayer_System_Action_SceneLayer__" data-uid="Global.MovementType_Walk.SubscribeToChangedSceneLayer(System.Action{SceneLayer})">
+  SubscribeToChangedSceneLayer(Action&lt;SceneLayer&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeToChangedSceneLayer(Action&lt;SceneLayer&gt; onLayerChange)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>onLayerChange</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SceneLayer.html">SceneLayer</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_MovementType_Walk_checkIfPositionIsValid_" data-uid="Global.MovementType_Walk.checkIfPositionIsValid*"></a>
+
+  <h3 id="Global_MovementType_Walk_checkIfPositionIsValid_UnityEngine_Vector2_" data-uid="Global.MovementType_Walk.checkIfPositionIsValid(UnityEngine.Vector2)">
+  checkIfPositionIsValid(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool checkIfPositionIsValid(Vector2 newPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPosition</code> <a class="xref" href="https://docs.unity3d.com/2021.3/Documentation/ScriptReference/Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Kyle-Agius/Lofi-City/blob/WebGLDemo/Assets/Scripts/Player/Movement/MovementType_Walk.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Lofi City Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

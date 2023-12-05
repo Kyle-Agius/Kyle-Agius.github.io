@@ -259,12 +259,12 @@ references:
   isSpec: "True"
   fullName: ActionCondition_ItemsSold.OnItemSold
   nameWithType: ActionCondition_ItemsSold.OnItemSold
-- uid: Global.ActionCondition_ItemsSold.SetCart(ItemSellingSystem)
-  name: SetCart(ItemSellingSystem)
-  href: api/Global.ActionCondition_ItemsSold.html#Global_ActionCondition_ItemsSold_SetCart_ItemSellingSystem_
-  commentId: M:Global.ActionCondition_ItemsSold.SetCart(ItemSellingSystem)
-  fullName: ActionCondition_ItemsSold.SetCart(ItemSellingSystem)
-  nameWithType: ActionCondition_ItemsSold.SetCart(ItemSellingSystem)
+- uid: Global.ActionCondition_ItemsSold.SetCart(CartData)
+  name: SetCart(CartData)
+  href: api/Global.ActionCondition_ItemsSold.html#Global_ActionCondition_ItemsSold_SetCart_CartData_
+  commentId: M:Global.ActionCondition_ItemsSold.SetCart(CartData)
+  fullName: ActionCondition_ItemsSold.SetCart(CartData)
+  nameWithType: ActionCondition_ItemsSold.SetCart(CartData)
 - uid: Global.ActionCondition_ItemsSold.SetCart*
   name: SetCart
   href: api/Global.ActionCondition_ItemsSold.html#Global_ActionCondition_ItemsSold_SetCart_
@@ -936,6 +936,72 @@ references:
   fullName.vb: AllSchedules(Of T)._allSchedules
   nameWithType: AllSchedules<T>._allSchedules
   nameWithType.vb: AllSchedules(Of T)._allSchedules
+- uid: Global.AttractCustomers
+  name: AttractCustomers
+  href: api/Global.AttractCustomers.html
+  commentId: T:Global.AttractCustomers
+  fullName: AttractCustomers
+  nameWithType: AttractCustomers
+- uid: Global.AttractCustomers.OnChangeOpenStatus(System.Boolean)
+  name: OnChangeOpenStatus(bool)
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers_OnChangeOpenStatus_System_Boolean_
+  commentId: M:Global.AttractCustomers.OnChangeOpenStatus(System.Boolean)
+  name.vb: OnChangeOpenStatus(Boolean)
+  fullName: AttractCustomers.OnChangeOpenStatus(bool)
+  fullName.vb: AttractCustomers.OnChangeOpenStatus(Boolean)
+  nameWithType: AttractCustomers.OnChangeOpenStatus(bool)
+  nameWithType.vb: AttractCustomers.OnChangeOpenStatus(Boolean)
+- uid: Global.AttractCustomers.OnChangeOpenStatus*
+  name: OnChangeOpenStatus
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers_OnChangeOpenStatus_
+  commentId: Overload:Global.AttractCustomers.OnChangeOpenStatus
+  isSpec: "True"
+  fullName: AttractCustomers.OnChangeOpenStatus
+  nameWithType: AttractCustomers.OnChangeOpenStatus
+- uid: Global.AttractCustomers.OnTriggerEnter2D(UnityEngine.Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers_OnTriggerEnter2D_UnityEngine_Collider2D_
+  commentId: M:Global.AttractCustomers.OnTriggerEnter2D(UnityEngine.Collider2D)
+  fullName: AttractCustomers.OnTriggerEnter2D(UnityEngine.Collider2D)
+  nameWithType: AttractCustomers.OnTriggerEnter2D(Collider2D)
+- uid: Global.AttractCustomers.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers_OnTriggerEnter2D_
+  commentId: Overload:Global.AttractCustomers.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: AttractCustomers.OnTriggerEnter2D
+  nameWithType: AttractCustomers.OnTriggerEnter2D
+- uid: Global.AttractCustomers.Start
+  name: Start()
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers_Start
+  commentId: M:Global.AttractCustomers.Start
+  fullName: AttractCustomers.Start()
+  nameWithType: AttractCustomers.Start()
+- uid: Global.AttractCustomers.Start*
+  name: Start
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers_Start_
+  commentId: Overload:Global.AttractCustomers.Start
+  isSpec: "True"
+  fullName: AttractCustomers.Start
+  nameWithType: AttractCustomers.Start
+- uid: Global.AttractCustomers._cart
+  name: _cart
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers__cart
+  commentId: F:Global.AttractCustomers._cart
+  fullName: AttractCustomers._cart
+  nameWithType: AttractCustomers._cart
+- uid: Global.AttractCustomers._cartData
+  name: _cartData
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers__cartData
+  commentId: F:Global.AttractCustomers._cartData
+  fullName: AttractCustomers._cartData
+  nameWithType: AttractCustomers._cartData
+- uid: Global.AttractCustomers._collider
+  name: _collider
+  href: api/Global.AttractCustomers.html#Global_AttractCustomers__collider
+  commentId: F:Global.AttractCustomers._collider
+  fullName: AttractCustomers._collider
+  nameWithType: AttractCustomers._collider
 - uid: Global.AttractionBase
   name: AttractionBase
   href: api/Global.AttractionBase.html
@@ -1539,6 +1605,19 @@ references:
   isSpec: "True"
   fullName: CartData.HagglingSystem
   nameWithType: CartData.HagglingSystem
+- uid: Global.CartData.IsOpen
+  name: IsOpen
+  href: api/Global.CartData.html#Global_CartData_IsOpen
+  commentId: P:Global.CartData.IsOpen
+  fullName: CartData.IsOpen
+  nameWithType: CartData.IsOpen
+- uid: Global.CartData.IsOpen*
+  name: IsOpen
+  href: api/Global.CartData.html#Global_CartData_IsOpen_
+  commentId: Overload:Global.CartData.IsOpen
+  isSpec: "True"
+  fullName: CartData.IsOpen
+  nameWithType: CartData.IsOpen
 - uid: Global.CartData.OnTriggerEnter2D(UnityEngine.Collider2D)
   name: OnTriggerEnter2D(Collider2D)
   href: api/Global.CartData.html#Global_CartData_OnTriggerEnter2D_UnityEngine_Collider2D_
@@ -1617,6 +1696,22 @@ references:
   isSpec: "True"
   fullName: CartData.Start
   nameWithType: CartData.Start
+- uid: Global.CartData.SubscribeToChangeInOpenStatus(System.Action{System.Boolean})
+  name: SubscribeToChangeInOpenStatus(Action<bool>)
+  href: api/Global.CartData.html#Global_CartData_SubscribeToChangeInOpenStatus_System_Action_System_Boolean__
+  commentId: M:Global.CartData.SubscribeToChangeInOpenStatus(System.Action{System.Boolean})
+  name.vb: SubscribeToChangeInOpenStatus(Action(Of Boolean))
+  fullName: CartData.SubscribeToChangeInOpenStatus(System.Action<bool>)
+  fullName.vb: CartData.SubscribeToChangeInOpenStatus(System.Action(Of Boolean))
+  nameWithType: CartData.SubscribeToChangeInOpenStatus(Action<bool>)
+  nameWithType.vb: CartData.SubscribeToChangeInOpenStatus(Action(Of Boolean))
+- uid: Global.CartData.SubscribeToChangeInOpenStatus*
+  name: SubscribeToChangeInOpenStatus
+  href: api/Global.CartData.html#Global_CartData_SubscribeToChangeInOpenStatus_
+  commentId: Overload:Global.CartData.SubscribeToChangeInOpenStatus
+  isSpec: "True"
+  fullName: CartData.SubscribeToChangeInOpenStatus
+  nameWithType: CartData.SubscribeToChangeInOpenStatus
 - uid: Global.CartData._attractions
   name: _attractions
   href: api/Global.CartData.html#Global_CartData__attractions
@@ -1653,6 +1748,18 @@ references:
   commentId: F:Global.CartData._hud
   fullName: CartData._hud
   nameWithType: CartData._hud
+- uid: Global.CartData._isOpen
+  name: _isOpen
+  href: api/Global.CartData.html#Global_CartData__isOpen
+  commentId: F:Global.CartData._isOpen
+  fullName: CartData._isOpen
+  nameWithType: CartData._isOpen
+- uid: Global.CartData._onChangeOpen
+  name: _onChangeOpen
+  href: api/Global.CartData.html#Global_CartData__onChangeOpen
+  commentId: F:Global.CartData._onChangeOpen
+  fullName: CartData._onChangeOpen
+  nameWithType: CartData._onChangeOpen
 - uid: Global.CartData._placableCart
   name: _placableCart
   href: api/Global.CartData.html#Global_CartData__placableCart
@@ -5106,6 +5213,79 @@ references:
   fullName.vb: GenericUnityAction(Of T)._data
   nameWithType: GenericUnityAction<T>._data
   nameWithType.vb: GenericUnityAction(Of T)._data
+- uid: Global.GlobalCartSetup
+  name: GlobalCartSetup
+  href: api/Global.GlobalCartSetup.html
+  commentId: T:Global.GlobalCartSetup
+  fullName: GlobalCartSetup
+  nameWithType: GlobalCartSetup
+- uid: Global.GlobalCartSetup.CartData
+  name: CartData
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_CartData
+  commentId: P:Global.GlobalCartSetup.CartData
+  fullName: GlobalCartSetup.CartData
+  nameWithType: GlobalCartSetup.CartData
+- uid: Global.GlobalCartSetup.CartData*
+  name: CartData
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_CartData_
+  commentId: Overload:Global.GlobalCartSetup.CartData
+  isSpec: "True"
+  fullName: GlobalCartSetup.CartData
+  nameWithType: GlobalCartSetup.CartData
+- uid: Global.GlobalCartSetup.RemoveCart
+  name: RemoveCart()
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_RemoveCart
+  commentId: M:Global.GlobalCartSetup.RemoveCart
+  fullName: GlobalCartSetup.RemoveCart()
+  nameWithType: GlobalCartSetup.RemoveCart()
+- uid: Global.GlobalCartSetup.RemoveCart*
+  name: RemoveCart
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_RemoveCart_
+  commentId: Overload:Global.GlobalCartSetup.RemoveCart
+  isSpec: "True"
+  fullName: GlobalCartSetup.RemoveCart
+  nameWithType: GlobalCartSetup.RemoveCart
+- uid: Global.GlobalCartSetup.SetupCart(CartData)
+  name: SetupCart(CartData)
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_SetupCart_CartData_
+  commentId: M:Global.GlobalCartSetup.SetupCart(CartData)
+  fullName: GlobalCartSetup.SetupCart(CartData)
+  nameWithType: GlobalCartSetup.SetupCart(CartData)
+- uid: Global.GlobalCartSetup.SetupCart*
+  name: SetupCart
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_SetupCart_
+  commentId: Overload:Global.GlobalCartSetup.SetupCart
+  isSpec: "True"
+  fullName: GlobalCartSetup.SetupCart
+  nameWithType: GlobalCartSetup.SetupCart
+- uid: Global.GlobalCartSetup.SubscribeToNewCart(System.Action{CartData})
+  name: SubscribeToNewCart(Action<CartData>)
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_SubscribeToNewCart_System_Action_CartData__
+  commentId: M:Global.GlobalCartSetup.SubscribeToNewCart(System.Action{CartData})
+  name.vb: SubscribeToNewCart(Action(Of CartData))
+  fullName: GlobalCartSetup.SubscribeToNewCart(System.Action<CartData>)
+  fullName.vb: GlobalCartSetup.SubscribeToNewCart(System.Action(Of CartData))
+  nameWithType: GlobalCartSetup.SubscribeToNewCart(Action<CartData>)
+  nameWithType.vb: GlobalCartSetup.SubscribeToNewCart(Action(Of CartData))
+- uid: Global.GlobalCartSetup.SubscribeToNewCart*
+  name: SubscribeToNewCart
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup_SubscribeToNewCart_
+  commentId: Overload:Global.GlobalCartSetup.SubscribeToNewCart
+  isSpec: "True"
+  fullName: GlobalCartSetup.SubscribeToNewCart
+  nameWithType: GlobalCartSetup.SubscribeToNewCart
+- uid: Global.GlobalCartSetup._cartData
+  name: _cartData
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup__cartData
+  commentId: F:Global.GlobalCartSetup._cartData
+  fullName: GlobalCartSetup._cartData
+  nameWithType: GlobalCartSetup._cartData
+- uid: Global.GlobalCartSetup._cartSetup
+  name: _cartSetup
+  href: api/Global.GlobalCartSetup.html#Global_GlobalCartSetup__cartSetup
+  commentId: F:Global.GlobalCartSetup._cartSetup
+  fullName: GlobalCartSetup._cartSetup
+  nameWithType: GlobalCartSetup._cartSetup
 - uid: Global.GlobalManagers
   name: GlobalManagers
   href: api/Global.GlobalManagers.html
@@ -5138,6 +5318,19 @@ references:
   isSpec: "True"
   fullName: GlobalManagers.Awake
   nameWithType: GlobalManagers.Awake
+- uid: Global.GlobalManagers.CartSetup
+  name: CartSetup
+  href: api/Global.GlobalManagers.html#Global_GlobalManagers_CartSetup
+  commentId: P:Global.GlobalManagers.CartSetup
+  fullName: GlobalManagers.CartSetup
+  nameWithType: GlobalManagers.CartSetup
+- uid: Global.GlobalManagers.CartSetup*
+  name: CartSetup
+  href: api/Global.GlobalManagers.html#Global_GlobalManagers_CartSetup_
+  commentId: Overload:Global.GlobalManagers.CartSetup
+  isSpec: "True"
+  fullName: GlobalManagers.CartSetup
+  nameWithType: GlobalManagers.CartSetup
 - uid: Global.GlobalManagers.DateTimeManager
   name: DateTimeManager
   href: api/Global.GlobalManagers.html#Global_GlobalManagers_DateTimeManager
@@ -5287,6 +5480,12 @@ references:
   commentId: F:Global.GlobalManagers._audioManager
   fullName: GlobalManagers._audioManager
   nameWithType: GlobalManagers._audioManager
+- uid: Global.GlobalManagers._cartSetup
+  name: _cartSetup
+  href: api/Global.GlobalManagers.html#Global_GlobalManagers__cartSetup
+  commentId: F:Global.GlobalManagers._cartSetup
+  fullName: GlobalManagers._cartSetup
+  nameWithType: GlobalManagers._cartSetup
 - uid: Global.GlobalManagers._dateTimeManager
   name: _dateTimeManager
   href: api/Global.GlobalManagers.html#Global_GlobalManagers__dateTimeManager
@@ -5923,6 +6122,19 @@ references:
   isSpec: "True"
   fullName: HUDController.GetHUDPanel
   nameWithType: HUDController.GetHUDPanel
+- uid: Global.HUDController.ResetToDefault
+  name: ResetToDefault()
+  href: api/Global.HUDController.html#Global_HUDController_ResetToDefault
+  commentId: M:Global.HUDController.ResetToDefault
+  fullName: HUDController.ResetToDefault()
+  nameWithType: HUDController.ResetToDefault()
+- uid: Global.HUDController.ResetToDefault*
+  name: ResetToDefault
+  href: api/Global.HUDController.html#Global_HUDController_ResetToDefault_
+  commentId: Overload:Global.HUDController.ResetToDefault
+  isSpec: "True"
+  fullName: HUDController.ResetToDefault
+  nameWithType: HUDController.ResetToDefault
 - uid: Global.HUDController.TogglePanel(Enum_HUDComponent,System.Boolean)
   name: TogglePanel(Enum_HUDComponent, bool)
   href: api/Global.HUDController.html#Global_HUDController_TogglePanel_Enum_HUDComponent_System_Boolean_
@@ -5977,6 +6189,12 @@ references:
   commentId: F:Global.HUDController._componentsFromInspector
   fullName: HUDController._componentsFromInspector
   nameWithType: HUDController._componentsFromInspector
+- uid: Global.HUDController._defaultState
+  name: _defaultState
+  href: api/Global.HUDController.html#Global_HUDController__defaultState
+  commentId: F:Global.HUDController._defaultState
+  fullName: HUDController._defaultState
+  nameWithType: HUDController._defaultState
 - uid: Global.HUDController._onUIToggled
   name: _onUIToggled
   href: api/Global.HUDController.html#Global_HUDController__onUIToggled
@@ -7059,6 +7277,19 @@ references:
   isSpec: "True"
   fullName: InWorldShop.BuyItem
   nameWithType: InWorldShop.BuyItem
+- uid: Global.InWorldShop.GetPrice(Scriptable_Item)
+  name: GetPrice(Scriptable_Item)
+  href: api/Global.InWorldShop.html#Global_InWorldShop_GetPrice_Scriptable_Item_
+  commentId: M:Global.InWorldShop.GetPrice(Scriptable_Item)
+  fullName: InWorldShop.GetPrice(Scriptable_Item)
+  nameWithType: InWorldShop.GetPrice(Scriptable_Item)
+- uid: Global.InWorldShop.GetPrice*
+  name: GetPrice
+  href: api/Global.InWorldShop.html#Global_InWorldShop_GetPrice_
+  commentId: Overload:Global.InWorldShop.GetPrice
+  isSpec: "True"
+  fullName: InWorldShop.GetPrice
+  nameWithType: InWorldShop.GetPrice
 - uid: Global.InWorldShop.IsOpen
   name: IsOpen()
   href: api/Global.InWorldShop.html#Global_InWorldShop_IsOpen
@@ -11116,6 +11347,19 @@ references:
   isSpec: "True"
   fullName: NPC_ActivityBase.SetActivity
   nameWithType: NPC_ActivityBase.SetActivity
+- uid: Global.NPC_ActivityBase.SetSpecificAttraction(Scriptable_Attraction)
+  name: SetSpecificAttraction(Scriptable_Attraction)
+  href: api/Global.NPC_ActivityBase.html#Global_NPC_ActivityBase_SetSpecificAttraction_Scriptable_Attraction_
+  commentId: M:Global.NPC_ActivityBase.SetSpecificAttraction(Scriptable_Attraction)
+  fullName: NPC_ActivityBase.SetSpecificAttraction(Scriptable_Attraction)
+  nameWithType: NPC_ActivityBase.SetSpecificAttraction(Scriptable_Attraction)
+- uid: Global.NPC_ActivityBase.SetSpecificAttraction*
+  name: SetSpecificAttraction
+  href: api/Global.NPC_ActivityBase.html#Global_NPC_ActivityBase_SetSpecificAttraction_
+  commentId: Overload:Global.NPC_ActivityBase.SetSpecificAttraction
+  isSpec: "True"
+  fullName: NPC_ActivityBase.SetSpecificAttraction
+  nameWithType: NPC_ActivityBase.SetSpecificAttraction
 - uid: Global.NPC_ActivityBase.Setup
   name: Setup()
   href: api/Global.NPC_ActivityBase.html#Global_NPC_ActivityBase_Setup
@@ -11665,6 +11909,12 @@ references:
   commentId: F:Global.NPC_MovementBase._previousPointOfInterest
   fullName: NPC_MovementBase._previousPointOfInterest
   nameWithType: NPC_MovementBase._previousPointOfInterest
+- uid: Global.NPC_MovementBase._sorting
+  name: _sorting
+  href: api/Global.NPC_MovementBase.html#Global_NPC_MovementBase__sorting
+  commentId: F:Global.NPC_MovementBase._sorting
+  fullName: NPC_MovementBase._sorting
+  nameWithType: NPC_MovementBase._sorting
 - uid: Global.NPC_Need
   name: NPC_Need
   href: api/Global.NPC_Need.html
@@ -12108,6 +12358,19 @@ references:
   isSpec: "True"
   fullName: NamedNPC_Activity.SetActivity
   nameWithType: NamedNPC_Activity.SetActivity
+- uid: Global.NamedNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+  name: SetSpecificAttraction(Scriptable_Attraction)
+  href: api/Global.NamedNPC_Activity.html#Global_NamedNPC_Activity_SetSpecificAttraction_Scriptable_Attraction_
+  commentId: M:Global.NamedNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+  fullName: NamedNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+  nameWithType: NamedNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+- uid: Global.NamedNPC_Activity.SetSpecificAttraction*
+  name: SetSpecificAttraction
+  href: api/Global.NamedNPC_Activity.html#Global_NamedNPC_Activity_SetSpecificAttraction_
+  commentId: Overload:Global.NamedNPC_Activity.SetSpecificAttraction
+  isSpec: "True"
+  fullName: NamedNPC_Activity.SetSpecificAttraction
+  nameWithType: NamedNPC_Activity.SetSpecificAttraction
 - uid: Global.NamedNPC_Activity.Start
   name: Start()
   href: api/Global.NamedNPC_Activity.html#Global_NamedNPC_Activity_Start
@@ -14346,19 +14609,19 @@ references:
   commentId: T:Global.PlayerSortingLayer
   fullName: PlayerSortingLayer
   nameWithType: PlayerSortingLayer
-- uid: Global.PlayerSortingLayer.Start
-  name: Start()
-  href: api/Global.PlayerSortingLayer.html#Global_PlayerSortingLayer_Start
-  commentId: M:Global.PlayerSortingLayer.Start
-  fullName: PlayerSortingLayer.Start()
-  nameWithType: PlayerSortingLayer.Start()
-- uid: Global.PlayerSortingLayer.Start*
-  name: Start
-  href: api/Global.PlayerSortingLayer.html#Global_PlayerSortingLayer_Start_
-  commentId: Overload:Global.PlayerSortingLayer.Start
+- uid: Global.PlayerSortingLayer.Awake
+  name: Awake()
+  href: api/Global.PlayerSortingLayer.html#Global_PlayerSortingLayer_Awake
+  commentId: M:Global.PlayerSortingLayer.Awake
+  fullName: PlayerSortingLayer.Awake()
+  nameWithType: PlayerSortingLayer.Awake()
+- uid: Global.PlayerSortingLayer.Awake*
+  name: Awake
+  href: api/Global.PlayerSortingLayer.html#Global_PlayerSortingLayer_Awake_
+  commentId: Overload:Global.PlayerSortingLayer.Awake
   isSpec: "True"
-  fullName: PlayerSortingLayer.Start
-  nameWithType: PlayerSortingLayer.Start
+  fullName: PlayerSortingLayer.Awake
+  nameWithType: PlayerSortingLayer.Awake
 - uid: Global.PlayerSortingLayer._movement
   name: _movement
   href: api/Global.PlayerSortingLayer.html#Global_PlayerSortingLayer__movement
@@ -15404,6 +15667,19 @@ references:
   isSpec: "True"
   fullName: RandomNPC_Activity.SetActivity
   nameWithType: RandomNPC_Activity.SetActivity
+- uid: Global.RandomNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+  name: SetSpecificAttraction(Scriptable_Attraction)
+  href: api/Global.RandomNPC_Activity.html#Global_RandomNPC_Activity_SetSpecificAttraction_Scriptable_Attraction_
+  commentId: M:Global.RandomNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+  fullName: RandomNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+  nameWithType: RandomNPC_Activity.SetSpecificAttraction(Scriptable_Attraction)
+- uid: Global.RandomNPC_Activity.SetSpecificAttraction*
+  name: SetSpecificAttraction
+  href: api/Global.RandomNPC_Activity.html#Global_RandomNPC_Activity_SetSpecificAttraction_
+  commentId: Overload:Global.RandomNPC_Activity.SetSpecificAttraction
+  isSpec: "True"
+  fullName: RandomNPC_Activity.SetSpecificAttraction
+  nameWithType: RandomNPC_Activity.SetSpecificAttraction
 - uid: Global.RandomNPC_Activity.Setup(Scriptable_Schedule{Enum_ActivityType},AttractionsInScene)
   name: Setup(Scriptable_Schedule<Enum_ActivityType>, AttractionsInScene)
   href: api/Global.RandomNPC_Activity.html#Global_RandomNPC_Activity_Setup_Scriptable_Schedule_Enum_ActivityType__AttractionsInScene_
@@ -21887,12 +22163,15 @@ references:
   isSpec: "True"
   fullName: UI_InWorldShopItem.BuyItem
   nameWithType: UI_InWorldShopItem.BuyItem
-- uid: Global.UI_InWorldShopItem.Setup(System.ValueTuple{Scriptable_Item,InWorldShop})
-  name: Setup((Scriptable_Item, InWorldShop))
-  href: api/Global.UI_InWorldShopItem.html#Global_UI_InWorldShopItem_Setup_System_ValueTuple_Scriptable_Item_InWorldShop__
-  commentId: M:Global.UI_InWorldShopItem.Setup(System.ValueTuple{Scriptable_Item,InWorldShop})
-  fullName: UI_InWorldShopItem.Setup((Scriptable_Item, InWorldShop))
-  nameWithType: UI_InWorldShopItem.Setup((Scriptable_Item, InWorldShop))
+- uid: Global.UI_InWorldShopItem.Setup(System.ValueTuple{Scriptable_Item,System.Int32,InWorldShop})
+  name: Setup((Scriptable_Item, int, InWorldShop))
+  href: api/Global.UI_InWorldShopItem.html#Global_UI_InWorldShopItem_Setup_System_ValueTuple_Scriptable_Item_System_Int32_InWorldShop__
+  commentId: M:Global.UI_InWorldShopItem.Setup(System.ValueTuple{Scriptable_Item,System.Int32,InWorldShop})
+  name.vb: Setup((Scriptable_Item, Integer, InWorldShop))
+  fullName: UI_InWorldShopItem.Setup((Scriptable_Item, int, InWorldShop))
+  fullName.vb: UI_InWorldShopItem.Setup((Scriptable_Item, Integer, InWorldShop))
+  nameWithType: UI_InWorldShopItem.Setup((Scriptable_Item, int, InWorldShop))
+  nameWithType.vb: UI_InWorldShopItem.Setup((Scriptable_Item, Integer, InWorldShop))
 - uid: Global.UI_InWorldShopItem.Setup*
   name: Setup
   href: api/Global.UI_InWorldShopItem.html#Global_UI_InWorldShopItem_Setup_
@@ -22696,6 +22975,19 @@ references:
   isSpec: "True"
   fullName: UI_ShoppingList.OnEnable
   nameWithType: UI_ShoppingList.OnEnable
+- uid: Global.UI_ShoppingList.Setup(CartData)
+  name: Setup(CartData)
+  href: api/Global.UI_ShoppingList.html#Global_UI_ShoppingList_Setup_CartData_
+  commentId: M:Global.UI_ShoppingList.Setup(CartData)
+  fullName: UI_ShoppingList.Setup(CartData)
+  nameWithType: UI_ShoppingList.Setup(CartData)
+- uid: Global.UI_ShoppingList.Setup*
+  name: Setup
+  href: api/Global.UI_ShoppingList.html#Global_UI_ShoppingList_Setup_
+  commentId: Overload:Global.UI_ShoppingList.Setup
+  isSpec: "True"
+  fullName: UI_ShoppingList.Setup
+  nameWithType: UI_ShoppingList.Setup
 - uid: Global.UI_ShoppingList.ShowEndOfSale
   name: ShowEndOfSale()
   href: api/Global.UI_ShoppingList.html#Global_UI_ShoppingList_ShowEndOfSale
@@ -22722,6 +23014,12 @@ references:
   isSpec: "True"
   fullName: UI_ShoppingList.Start
   nameWithType: UI_ShoppingList.Start
+- uid: Global.UI_ShoppingList._cartSetup
+  name: _cartSetup
+  href: api/Global.UI_ShoppingList.html#Global_UI_ShoppingList__cartSetup
+  commentId: F:Global.UI_ShoppingList._cartSetup
+  fullName: UI_ShoppingList._cartSetup
+  nameWithType: UI_ShoppingList._cartSetup
 - uid: Global.UI_ShoppingList._data
   name: _data
   href: api/Global.UI_ShoppingList.html#Global_UI_ShoppingList__data

@@ -123,6 +123,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttractCustomers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttractCustomers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.AttractionBase.yml",
       "output": {
         ".html": {
@@ -687,6 +697,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GenericUnityAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GlobalCartSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GlobalCartSetup.html"
         }
       },
       "version": ""
@@ -3103,6 +3123,16 @@
       "output": {
         ".html": {
           "relative_path": "manual/Gameplay_Systems/SellingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Gameplay_Systems/TaskSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Gameplay_Systems/TaskSystem.html"
         }
       },
       "version": ""

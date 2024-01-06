@@ -1091,6 +1091,19 @@ references:
   isSpec: "True"
   fullName: AttractionObject.CentralPosition
   nameWithType: AttractionObject.CentralPosition
+- uid: Global.AttractionObject.ClearAttraction
+  name: ClearAttraction()
+  href: api/Global.AttractionObject.html#Global_AttractionObject_ClearAttraction
+  commentId: M:Global.AttractionObject.ClearAttraction
+  fullName: AttractionObject.ClearAttraction()
+  nameWithType: AttractionObject.ClearAttraction()
+- uid: Global.AttractionObject.ClearAttraction*
+  name: ClearAttraction
+  href: api/Global.AttractionObject.html#Global_AttractionObject_ClearAttraction_
+  commentId: Overload:Global.AttractionObject.ClearAttraction
+  isSpec: "True"
+  fullName: AttractionObject.ClearAttraction
+  nameWithType: AttractionObject.ClearAttraction
 - uid: Global.AttractionObject.ForceRegister(UnityEngine.GameObject)
   name: ForceRegister(GameObject)
   href: api/Global.AttractionObject.html#Global_AttractionObject_ForceRegister_UnityEngine_GameObject_
@@ -2930,6 +2943,19 @@ references:
   isSpec: "True"
   fullName: CustomerQueue.Queue
   nameWithType: CustomerQueue.Queue
+- uid: Global.CustomerQueue.RemoveAllCustomers
+  name: RemoveAllCustomers()
+  href: api/Global.CustomerQueue.html#Global_CustomerQueue_RemoveAllCustomers
+  commentId: M:Global.CustomerQueue.RemoveAllCustomers
+  fullName: CustomerQueue.RemoveAllCustomers()
+  nameWithType: CustomerQueue.RemoveAllCustomers()
+- uid: Global.CustomerQueue.RemoveAllCustomers*
+  name: RemoveAllCustomers
+  href: api/Global.CustomerQueue.html#Global_CustomerQueue_RemoveAllCustomers_
+  commentId: Overload:Global.CustomerQueue.RemoveAllCustomers
+  isSpec: "True"
+  fullName: CustomerQueue.RemoveAllCustomers
+  nameWithType: CustomerQueue.RemoveAllCustomers
 - uid: Global.CustomerQueue.RemoveFromQueue(CustomerInQueue)
   name: RemoveFromQueue(CustomerInQueue)
   href: api/Global.CustomerQueue.html#Global_CustomerQueue_RemoveFromQueue_CustomerInQueue_

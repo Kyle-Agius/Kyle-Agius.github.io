@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Street Vending Overview | Lofi City Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Street Vending Overview | Lofi City Documentation ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Kyle-Agius/Lofi-City/blob/main/Documentation/designDocs/Gameplay/VendorSystem/Overview.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="street-vending-overview">Street Vending Overview</h1>
+
+<p>Players can sell the food and artisan goods that they produce by setting up a street cart.</p>
+<h2 id="mechanics">Mechanics</h2>
+<ul>
+<li>Set up a <a href="CartSystem.html">cart</a>, selecting the items to sell.</li>
+<li>When open, <a href="../../GeneralSystems/NPCs/Overview.html">NPCs</a> in the area will check out the cart, forming a queue.</li>
+<li>The player focuses on one <a href="Customer.html">customer</a> at a time.</li>
+<li>The customer chooses a list of items to buy, as well as quantity.</li>
+<li>The player then gets a chance to <a href="CustomerInteraction.html">interact</a> with the customer.</li>
+<li>The customer is then either served instantly, or moved to another queue until the food is ready.</li>
+<li>The player can either cook the needed food <a href="../Cooking/CookingSolo.html">solo</a>, or have a <a href="../Cooking/CookingWithChef.html">chef</a> helping.</li>
+<li>The customer interaction and speed of service determines the <a href="../../GeneralSystems/NPCs/ReputationSystem.html">reputation</a> earned.</li>
+<li>The UI for each action should be in a separate floating tab, which the player can move.</li>
+</ul>
+<h2 id="dynamics">Dynamics</h2>
+<ul>
+<li>Learn the patterns of the community in the district and when they are most active.</li>
+<li>Learn what the different Personalities and Interests want and how best to help them.</li>
+<li>The player is incentivized to treat customers fairly.</li>
+<li>Having ingredients/dishes ready will reduce wait times.</li>
+<li>The player will need to shuffle the tabs around to find the needed information.</li>
+</ul>
+<h2 id="aesthetic">Aesthetic</h2>
+<ul>
+<li>The player should feel like they are part of the community, and want to help their customers.</li>
+<li>The player should be rewarded for planning and understanding. Avoid elements of chance.</li>
+<li>Street vending should feel fast paced and chaotic when compared to fieldwork.</li>
+<li>Based on principled bargaining:
+<ul>
+<li>Avoid positional bargaining, i.e. arguing between lower and higher price.</li>
+<li>Item price is based on an objective measure (market value).</li>
+<li>Different negotiation options that can lead to mutual gain.</li>
+<li>Considers the goals of each customer and the player.</li>
+</ul>
+</li>
+</ul>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Kyle-Agius/Lofi-City/blob/main/Documentation/designDocs/Gameplay/VendorSystem/Overview.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Lofi City Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

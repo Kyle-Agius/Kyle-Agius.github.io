@@ -3079,6 +3079,302 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Cooking/CookingSolo.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Cooking/CookingSolo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Cooking/CookingWithChef.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Cooking/CookingWithChef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Cooking/Dishes.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Cooking/Dishes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Cooking/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Cooking/Overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Cooking/Recipies.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Cooking/Recipies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/Animals.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/Animals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/Ecosystems.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/Ecosystems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/FactorySystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/FactorySystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/Farming.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/Farming.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/Fishing.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/Fishing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/ForestSprites.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/ForestSprites.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/Overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/Fieldwork/Tools.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/Fieldwork/Tools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/GameplayLoop.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/GameplayLoop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/VendorSystem/CartSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/VendorSystem/CartSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/VendorSystem/ChoosingItems.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/VendorSystem/ChoosingItems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/VendorSystem/Customer.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/VendorSystem/Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/VendorSystem/CustomerInteraction.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/VendorSystem/CustomerInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Gameplay/VendorSystem/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Gameplay/VendorSystem/Overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/GeneralSystems/Calendar/Festivals.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/GeneralSystems/Calendar/Festivals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/GeneralSystems/Calendar/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/GeneralSystems/Calendar/Overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/GeneralSystems/NPCs/Dialogue.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/GeneralSystems/NPCs/Dialogue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/GeneralSystems/NPCs/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/GeneralSystems/NPCs/Overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/GeneralSystems/NPCs/ReputationSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/GeneralSystems/NPCs/ReputationSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Themes.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Themes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Worldbuilding/HistoryAndCulture.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Worldbuilding/HistoryAndCulture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "designDocs/Worldbuilding/OrdinalSea.md",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/Worldbuilding/OrdinalSea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "designDocs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "designDocs/toc.html"
+        },
+        ".json": {
+          "relative_path": "designDocs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {

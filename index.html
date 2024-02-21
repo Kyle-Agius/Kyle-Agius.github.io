@@ -70,7 +70,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Lofi_City_Factory.png" alt="..." />							
+                            <img class="img-fluid" src="assets/img/portfolio/Lofi_City_Split.jpg" alt="..." />							
                         </div>
 						<h3 class="text-center text-uppercase text-secondary mt-2">Game Demo - Lofi City</h3>
                     </div>
@@ -126,7 +126,6 @@
                     <div class="col-lg-4 ms-auto">
 						<p class="lead"><b>Interested In:</b></p>
 						<ul class="lead list-unstyled">
-							<li>Programming or Quality Assurance Roles.</li>
 							<li>Creative Game Concepts with Strong Stories.</li>
 							<li>Game Design, Worldbuilding and 2D Art.</li>
 						</ul></div>
@@ -192,42 +191,72 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
 									
-									<div class="row justify-content-center">
-										<div class="col-md-6 mb-5">
-											 <img class="img-fluid rounded" src="assets/img/portfolio/Lofi_City_Cart.png" alt="..." />
-										</div>
-										
-										<div class="col-md-6 mb-5">
-											 <img class="img-fluid rounded" src="assets/img/portfolio/Lofi_City_Market.png" alt="..." />
-										</div>
-										<div class="col-md-6 mb-5">
-											 <img class="img-fluid rounded " src="assets/img/portfolio/Lofi_City_Factory.png" alt="..." />
-										</div>
-										
-										<div class="col-md-6 mb-5">
-											 <img class="img-fluid rounded " src="assets/img/portfolio/Lofi_City_Craft.png" alt="..." />
-										</div>
-									</div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">
-										To showcase my current abilities, I built a small slice of a factory building and item shop game. Most of the code and artwork was made from scratch in the last 5 months. Emphasis was placed on maintaining a clean and documented code base, as well as considering the performance of the system.
+										This is a solo project that showcases my current abilities. I am building a small slice of a factory building, farming and item shop game. This was done using the Unity Game Engine. Most of the code, documentation and artwork was made from scratch in the span of 6-7 months. <br><br>
+										
+										During the first 4 months, I created most of the base mechanics for the game. This included:
 									</p>
 									<ul class="list-unstyled">
-										<li><b>Main Features Built</b></li>
-										<li>Layered Grid System for Building and Player Movement.</li>
-										<li>Item and Inventory System Using Scriptable Objects and Addressable Assets.</li>
-										<li>Factory System with Connected Machines and Crafting Requests.</li>
-										<li>Street Vending - Sell Crafted Items to NPCs</li>
-										<li>Ecosystem Layers and Cleaning System.</li>
-										<li>Date and Time System.</li>
-										<li>NPC Pathfinding, Schedule and Personality System.</li>
-										<li>Custom 2D Art (No AI) and 2D Character Rigs.</li>
-										<li>JSON Based Save System with Save Slots (Not shown in Online Demo).</li>
-										<li>GDD, Manual and Auto Generated Documentation.</li>
+										<li>A Multi-layered Grid System for Building and Player Movement</li>
+										<li>Item and Inventory System Using Scriptable Objects and Addressable Assets</li>
+										<li>Factory System with Connected Machines and Crafting Requests</li>
 									</ul>
-									<a class="text-secondary" href="https://kyleagius.itch.io/factory-game-system?secret=ydqKhunVcqqAZJxEeKA9MCyk7g" target="_blank">Game Demo (Play in Browser)</a><br>
+									
+									<img class="img-fluid rounded col-md-6 mb-2" src="assets/gif/Factory.gif" alt="..." />
+									
+									<ul class="list-unstyled">
+										<li>Field Cleaning System with Varying Ecosystems</li>
+										<li>Sell Items to NPCs Through Street Vending</li>								
+										<li>Date and Time System</li>	
+										<li>NPC Pathfinding, Schedule and Personality System</li>
+									</ul>			
+									
+									
+									<img class="img-fluid rounded col-md-6 mb-2" src="assets/gif/NPCs.gif" alt="..." />
+									
+									<ul class="list-unstyled">
+										<li>JSON Based Save System with Save Slots</li>								
+										<li>Auto Generating Code Documentation Using docfx</li>	
+									</ul>
+									
+									<p>
+										An estimated 5 weeks were then spent on creating a short, playable demo for the game. This required adding visuals to the game, as well as a general structure to guide the player. The following tasks were focused on:
+									</p>
+									
+									<ul class="list-unstyled">
+										<li>Creating and Adding the 2D Art to the Project (Not AI Generated)</li>
+										<li>Added 2D Character Rigs for NPCs and Frame-by-Frame Animation for the Player</li>						
+										<li>A Quest System to Guide the Player, and Introduce the Different Mechanics</li>	
+										<li>Yarnspinner was Integrated for a Tutorial System, and for the Opening Credits</li>					
+										<li>Royalty Free Music and Sound Effects were Integrated</li>	
+										<li>Various Smaller Features, Such as Screen Transitions and In-World Shops</li>
+									</ul>	
+									
+									<p>
+										After completing the first demo, I decided to focus on creating a proper game design document. As such, I spent three weeks adding this to my existing documentation system. The MDA (Mechanics, Dynamics, Aesthetic) framework was used throughout the documentation. This process allowed me to redesign the main systems so that they better align with the intended themes of the game.
+									</p>
+																		
+									<img  class="img-fluid rounded col-md-6 mb-5" src="assets/img/portfolio/GDD.png" alt="..." />
+									
+									<p>
+										Following this, I identified the areas of the game that needed to be more engaging. The first change was related to the cleaning system, which was redisigned to be closer to the intended Solarpunk theme. This and the farming system are now more focused on problem solving. 
+									</p>
+									
+									<img  class="img-fluid rounded col-md-6 mb-5" src="assets/gif/Ecosystem.gif" alt="..." />
+									
+									<p>
+										When playtesting, I fould that the selling system was not particularly engaging, despite the underlying complexity in the price and demand system. As such, the item selling system was changed to be more focused on selling food. A more complex cooking system was added to the street vending system. This should give the player more to manage when street vending, as they need to prepare food while serving customers.
+									</p>
+									
+									<img class="img-fluid rounded col-md-6 mb-5" src="assets/gif/Cooking.gif" alt="..." />
+									
+									<p>		
+										Emphasis was placed on maintaining a clean and documented code base, as well as considering the performance of the system. Focus was placed on the structure and decoupling of the code. This made it significantly easier to iterate and alter the code later on. GitHub was used for source control, which also allowed for prototyping mechanics on separate branches.
+									</p>												
+									
+									<a class="text-secondary" href="https://kyleagius.itch.io/factory-game-system?secret=ydqKhunVcqqAZJxEeKA9MCyk7g" target="_blank">Game Demo (Outdated)(Play in Browser)</a><br>
 									<a class="text-secondary" href="LofiCity/index.html" target="_blank">Documentation</a>
 									<br>
 									<a class="text-secondary" href="https://youtu.be/CM5NBWMm1zc" target="_blank">Gameplay Video</a>
@@ -266,7 +295,15 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/StyleTransfer.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">As part of my undergraduate thesis project, I used Unity to efficiently mimic real-time style transfer in games for both 2D and 3D scenarios. <br><br> For 2D, this was done by loading and swapping stylised sprites. This was extended for 3D by stylising the textures applied to a material. The final result achieved the desired goals for both scenarios. </p>
+                                    <p class="mb-4">
+										My undergraduate thesis was focused on neural style transfer. As part of my project, I explored efficient ways for games to change their art style in real time. I used Unity to create a proof of concept for both 2D and 3D scenarios.
+										
+										<br><br>
+										Existing methods stylise each frame in real time, which requires powerful hardware. My system instead stylises the individual elements, avoiding repetition. For 2D, this was done by loading and swapping stylised sprites. This was extended for 3D by stylising the textures applied to a material. The final result achieved the desired goals for both scenarios.
+										
+										<br><br>
+										The project was well received, receiving an “A” grade from the university and being nominated for the IEEE Final-Year Project in ICT. 
+									</p>
 									<a class="text-secondary" href="https://github.com/KyleAgius/Style_Transfer_FYP/tree/main/Unity" target="_blank">Developed System (Unity Package)</a>
 									<br>
 									<br>
@@ -301,13 +338,20 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SpaceStop.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">I took part in the "Wowie Jam 4.0", hosted on Itch.io. Here, I was able to create a simple, story focused shop management game. This was relatively well received, being ranked 191st from 1019 entrees.<br> <br>All aspects of this project, except for the music and sound effects, were made by me. This showcases my ability to work in a limited time period and being able to handle unexpected issues. 
+                                    <p class="mb-4">
+										To improve my skills in completing a game, I took part in the "Wowie Jam 4.0" hosted by Jonas Tyroller. This was a three day game jam, with the given theme being “Collaborating with AI”. My submission for this was a story-focused shop management game. Despite being my first game jam, the submission was relatively well received, being ranked 191st from 1019 entrees.
+										
+										<br><br>
+										Before submission, a significant issue with the dialogue system was found that would have made the game unplayable when built. I was able to rework the entire system in a few hours, changing all the conversations from scriptable objects to JSON files. This showcases my ability to work in a limited time period and being able to handle unexpected issues.
+										
+										<br><br>									
+										All aspects of this project, except for the music and sound effects, were made by me.
+
 									</p>
 									<ul class="list-unstyled">
 										<li><b>Main Features Built</b></li>
 										<li>Resource Management and Shop Management System.</li>
 										<li>Dialogue Based Story System</li>
-										<li>Was Able to Fix Majour Issues Found in the Last Few Hours.</li>
 									</ul>
 									<a class="text-secondary" href="https://kyleagius.itch.io/space-stop" target="_blank">Itch.io Download Page</a><br>
 									<a class="text-secondary" href="https://itch.io/jam/wowie-jam-4/rate/1664112" target="_blank">Itch.io Game Jam Page</a>
@@ -344,7 +388,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/FlightSim.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">This project was a University assignment focused on teamwork and professional software development. My group and I built a dashboard for flight sim enthusiasts to use alongside the game, displaying additional information when needed. The ASP .Net Core Framework was used to create the application.
+                                    <p class="mb-4">
+										This project was the result of a University assignment. My team and I were given the task to build a dashboard for flight simulation enthusiasts to use alongside the game, displaying helpful information when it is needed. This task aimed to test us on the entire software development process, including the UI/UX design, requirements elicitation, testing and documentation.
+										
+										<br><br>
+										The project was built as a web based application using the ASP .Net Core Framework. A scrum board on Trello was used to manage the development progress, and GitHub was used to maintain the codebase.
+
 									</p>
 									<ul class="list-unstyled">
 										<li><b>My Main Contributions</b></li>
